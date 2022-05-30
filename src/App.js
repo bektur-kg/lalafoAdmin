@@ -1,7 +1,12 @@
+import Layout from "./pages/Layout";
+import "./App.module.scss";
+
+
+
 function App() {
 	return (
 		<div className="App">
-			admin to create products
+			<Layout/>
 		</div>
 	);
 }
